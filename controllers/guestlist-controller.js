@@ -11,7 +11,11 @@ const findAll = async (req, res) => {
       "rsvp",
       "contact_email",
       "group",
-      "dietary_restrictions"
+      "dietary_restrictions",
+      "address",
+      "city",
+      "province",
+      "postal_code"
     );
     res.status(200).json(result);
   } catch (error) {
