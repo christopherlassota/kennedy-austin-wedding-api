@@ -78,4 +78,55 @@ const RSVPResponse = async (req, res) => {
   }
 };
 
-export { findAll, findRSVPstatus, RSVPResponse };
+const updateGuest = async (req, res) => {
+  try {
+    const { contact_email } = req.params;
+    const updatedData = req.body;
+
+    const updatedRows = await knex("guestlist")
+      .where({ contact_email })
+      .update(updatedData);
+
+    if (updatedRows) {
+      return res.status(200).json({
+        message: "Guest updated successfully",
+      });
+    } else {
+      return res.status(404).json({
+        message: "Guest not found",
+      });
+    }
+  } catch (error) {
+    res.status(500).json({
+      message: "Error updating guest",
+      error: error.message,
+    });
+  }
+};
+
+const deleteGuest = async (req, res) => {
+  try {
+    const { contact_email } = req.params;
+
+    const deletedRows = await knex("guestlist")
+      .where({ contact_email })
+      .del();
+
+    if (deletedRows) {
+      return res.status(200).json({
+        message: "Guest deleted successfully",
+      });
+    } else {
+      return res.status(404).json({
+        message: "Guest not found",
+      });
+    }
+  } catch (error) {
+    res.status(500).json({
+      message: "Error deleting guest",
+      error: error.message,
+    });
+  }
+};
+
+export { findAll, findRSVPstatus, RSVPResponse, updateGuest, deleteGuest };
