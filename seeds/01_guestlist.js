@@ -16,7 +16,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "207-380 Marina Drive",
         "city": "Chestermere",
-        "province": "Alberta",
+        "province": "AB",
         "postal_code": "T1X 0B8"
       },
       {
@@ -28,7 +28,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "207-380 Marina Drive",
         "city": "Chestermere",
-        "province": "Alberta",
+        "province": "AB",
         "postal_code": "T1X 0B8"
       },
       {
@@ -40,7 +40,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "366 Patterson Boulevard Southwest",
         "city": "Calgary",
-        "province": "Alberta",
+        "province": "AB",
         "postal_code": "T3H 3N6"
       },
       {
@@ -52,7 +52,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "366 Patterson Boulevard Southwest",
         "city": "Calgary",
-        "province": "Alberta",
+        "province": "AB",
         "postal_code": "T3H 3N6"
       },
       {
@@ -64,7 +64,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "206-15392 16A Street",
         "city": "White Rock",
-        "province": "British Columbia",
+        "province": "BC",
         "postal_code": "V4A 1S9"
       },
       {
@@ -76,7 +76,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "206-15392 16A Street",
         "city": "White Rock",
-        "province": "British Columbia",
+        "province": "BC",
         "postal_code": "V4A 1S9"
       },
       {
@@ -88,7 +88,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "14 Country Village Gate Northeast",
         "city": "Calgary",
-        "province": "Alberta",
+        "province": "AB",
         "postal_code": "T3K 0L5"
       },
       {
@@ -100,7 +100,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "14 Country Village Gate Northeast",
         "city": "Calgary",
-        "province": "Alberta",
+        "province": "AB",
         "postal_code": "T3K 0L5"
       },
       {
@@ -112,7 +112,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "128 Willowmere Way",
         "city": "Chestermere",
-        "province": "Alberta",
+        "province": "AB",
         "postal_code": "T1X 0E1"
       },
       {
@@ -124,7 +124,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "128 Willowmere Way",
         "city": "Chestermere",
-        "province": "Alberta",
+        "province": "AB",
         "postal_code": "T1X 0E1"
       },
       {
@@ -160,7 +160,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "520-255 The Donway West",
         "city": "North York",
-        "province": "Ontario",
+        "province": "ON",
         "postal_code": "M3B 3M3"
       },
       {
@@ -172,7 +172,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "520-255 The Donway West",
         "city": "North York",
-        "province": "Ontario",
+        "province": "ON",
         "postal_code": "M3B 3M3"
       },
       {
@@ -184,7 +184,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "1509 Eagleview Drive",
         "city": "Pickering",
-        "province": "Ontario",
+        "province": "ON",
         "postal_code": "L1V 5H2"
       },
       {
@@ -196,7 +196,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "1509 Eagleview Drive",
         "city": "Pickering",
-        "province": "Ontario",
+        "province": "ON",
         "postal_code": "L1V 5H2"
       },
       {
@@ -208,7 +208,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "550-24 Southport Street",
         "city": "Toronto",
-        "province": "Ontario",
+        "province": "ON",
         "postal_code": "M6S 4Z1"
       },
       {
@@ -220,7 +220,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "550-24 Southport Street",
         "city": "Toronto",
-        "province": "Ontario",
+        "province": "ON",
         "postal_code": "M6S 4Z1"
       },
       {
@@ -232,7 +232,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "515-80 Front Street East",
         "city": "Toronto",
-        "province": "Ontario",
+        "province": "ON",
         "postal_code": "M5E 1T4"
       },
       {
@@ -244,7 +244,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "515-80 Front Street East",
         "city": "Toronto",
-        "province": "Ontario",
+        "province": "ON",
         "postal_code": "M5E 1T4"
       },
       {
@@ -256,7 +256,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "111 Plateau Crescent",
         "city": "North York",
-        "province": "Ontario",
+        "province": "ON",
         "postal_code": "M3C 1M9"
       },
       {
@@ -268,7 +268,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "12637 Lakeshore Road",
         "city": "Wainfleet",
-        "province": "Ontario",
+        "province": "ON",
         "postal_code": "L0S 1V0"
       },
       {
@@ -280,7 +280,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "12637 Lakeshore Road",
         "city": "Wainfleet",
-        "province": "Ontario",
+        "province": "ON",
         "postal_code": "L0S 1V0"
       },
       {
@@ -292,7 +292,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "1332 75 Avenue Southwest",
         "city": "Calgary",
-        "province": "Alberta",
+        "province": "AB",
         "postal_code": "T2V 0S6"
       },
       {
@@ -304,7 +304,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "254257 Range Road 284",
         "city": "Rocky View County",
-        "province": "Alberta",
+        "province": "AB",
         "postal_code": "T1Z 0L2"
       },
       {
@@ -316,7 +316,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "254257 Range Road 284",
         "city": "Rocky View County",
-        "province": "Alberta",
+        "province": "AB",
         "postal_code": "T1Z 0L2"
       },
       {
@@ -328,7 +328,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "254257 Range Road 284",
         "city": "Rocky View County",
-        "province": "Alberta",
+        "province": "AB",
         "postal_code": "T1Z 0L2"
       },
       {
@@ -340,7 +340,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "254257 Range Road 284",
         "city": "Rocky View County",
-        "province": "Alberta",
+        "province": "AB",
         "postal_code": "T1Z 0L2"
       },
       {
@@ -352,7 +352,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "254257 Range Road 284",
         "city": "Rocky View County",
-        "province": "Alberta",
+        "province": "AB",
         "postal_code": "T1Z 0L2"
       },
       {
@@ -364,7 +364,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "254257 Range Road 284",
         "city": "Rocky View County",
-        "province": "Alberta",
+        "province": "AB",
         "postal_code": "T1Z 0L2"
       },
       {
@@ -376,7 +376,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "254257 Range Road 284",
         "city": "Rocky View County",
-        "province": "Alberta",
+        "province": "AB",
         "postal_code": "T1Z 0L2"
       },
       {
@@ -388,7 +388,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "254257 Range Road 284",
         "city": "Rocky View County",
-        "province": "Alberta",
+        "province": "AB",
         "postal_code": "T1Z 0L2"
       },
       {
@@ -400,7 +400,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "254257 Range Road 284",
         "city": "Rocky View County",
-        "province": "Alberta",
+        "province": "AB",
         "postal_code": "T1Z 0L2"
       },
       {
@@ -412,7 +412,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "254257 Range Road 284",
         "city": "Rocky View County",
-        "province": "Alberta",
+        "province": "AB",
         "postal_code": "T1Z 0L2"
       },
       {
@@ -424,7 +424,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "111 Whitehaven Road Northeast",
         "city": "Calgary",
-        "province": "Alberta",
+        "province": "AB",
         "postal_code": "T1Y 6A6"
       },
       {
@@ -436,7 +436,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "216 Hawkmere Close",
         "city": "Chestermere",
-        "province": "Alberta",
+        "province": "AB",
         "postal_code": "T1X 0C1"
       },
       {
@@ -460,7 +460,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "214 Westchester Way",
         "city": "Chestermere",
-        "province": "Alberta",
+        "province": "AB",
         "postal_code": "T1X 1E2"
       },
       {
@@ -472,7 +472,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "247 Springmere Close",
         "city": "Chestermere",
-        "province": "Alberta",
+        "province": "AB",
         "postal_code": "T1X 1K1"
       },
       {
@@ -484,7 +484,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "11246 75A Avenue",
         "city": "Grande Prairie",
-        "province": "Alberta",
+        "province": "AB",
         "postal_code": "T8W 0C3"
       },
       {
@@ -496,7 +496,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "11246 75A Avenue",
         "city": "Grande Prairie",
-        "province": "Alberta",
+        "province": "AB",
         "postal_code": "T8W 0C3"
       },
       {
@@ -508,7 +508,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "601-55 9A Street Northeast",
         "city": "Calgary",
-        "province": "Alberta",
+        "province": "AB",
         "postal_code": "T2E 7J6"
       },
       {
@@ -520,7 +520,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "601-55 9A Street Northeast",
         "city": "Calgary",
-        "province": "Alberta",
+        "province": "AB",
         "postal_code": "T2E 7J6"
       },
       {
@@ -532,7 +532,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "419 Brookmere Crescent Southwest",
         "city": "Calgary",
-        "province": "Alberta",
+        "province": "AB",
         "postal_code": "T2W 2R2"
       },
       {
@@ -544,7 +544,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "419 Brookmere Crescent Southwest",
         "city": "Calgary",
-        "province": "Alberta",
+        "province": "AB",
         "postal_code": "T2W 2R2"
       },
       {
@@ -556,7 +556,7 @@ export async function seed(knex) {
         "dietary_restrictions": null,
         "address": "316 Windermere Drive",
         "city": "Chestemere",
-        "province": "Alberta",
+        "province": "AB",
         "postal_code": "T1X 0B9"
       }
     ]
