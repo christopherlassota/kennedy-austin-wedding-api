@@ -80,12 +80,33 @@ const RSVPResponse = async (req, res) => {
 
 const updateGuest = async (req, res) => {
   try {
-    const { contact_email } = req.params;
-    const updatedData = req.body;
+    console.log('Request body:', req.body);
+    const { guest_firstname, guest_lastname, updatedData } = req.body;
 
+    if (!guest_firstname || !guest_lastname) {
+      console.log('Missing guest name information');
+      return res.status(400).json({
+        message: "Guest first name and last name are required"
+      });
+    }
+
+    if (!updatedData || Object.keys(updatedData).length === 0) {
+      console.log('No fields to update');
+      return res.status(400).json({
+        message: "No fields provided to update"
+      });
+    }
+
+    console.log('Executing update query for guest:', guest_firstname, guest_lastname);
+    
     const updatedRows = await knex("guestlist")
-      .where({ contact_email })
+      .where({ 
+        guest_firstname,
+        guest_lastname 
+      })
       .update(updatedData);
+
+    console.log('Rows affected by update:', updatedRows);
 
     if (updatedRows) {
       return res.status(200).json({
@@ -97,6 +118,7 @@ const updateGuest = async (req, res) => {
       });
     }
   } catch (error) {
+    console.error('Update operation failed:', error);
     res.status(500).json({
       message: "Error updating guest",
       error: error.message,
@@ -106,11 +128,26 @@ const updateGuest = async (req, res) => {
 
 const deleteGuest = async (req, res) => {
   try {
-    const { contact_email } = req.params;
+    console.log('Request body:', req.body);
+    const { guest_firstname, guest_lastname } = req.body;
 
+    if (!guest_firstname || !guest_lastname) {
+      console.log('Missing guest name information');
+      return res.status(400).json({
+        message: "Guest first name and last name are required"
+      });
+    }
+
+    console.log('Executing delete query for guest:', guest_firstname, guest_lastname);
+    
     const deletedRows = await knex("guestlist")
-      .where({ contact_email })
+      .where({ 
+        guest_firstname,
+        guest_lastname 
+      })
       .del();
+
+    console.log('Rows affected by delete:', deletedRows);
 
     if (deletedRows) {
       return res.status(200).json({
@@ -122,6 +159,7 @@ const deleteGuest = async (req, res) => {
       });
     }
   } catch (error) {
+    console.error('Delete operation failed:', error);
     res.status(500).json({
       message: "Error deleting guest",
       error: error.message,
