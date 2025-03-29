@@ -10,7 +10,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Kennedy",
         "guest_lastname": "Laing",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "family",
         "dietary_restrictions": null,
@@ -22,7 +22,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Austin",
         "guest_lastname": "Bercier",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "family",
         "dietary_restrictions": null,
@@ -34,7 +34,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Claudine",
         "guest_lastname": "Laing",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "family",
         "dietary_restrictions": null,
@@ -46,7 +46,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Kevin",
         "guest_lastname": "Neish",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "family",
         "dietary_restrictions": null,
@@ -58,7 +58,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Ted",
         "guest_lastname": "Laing",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "family",
         "dietary_restrictions": null,
@@ -70,7 +70,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Minoo",
         "guest_lastname": "Naeini",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "family",
         "dietary_restrictions": null,
@@ -82,7 +82,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Keeley",
         "guest_lastname": "Laing",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "family",
         "dietary_restrictions": null,
@@ -94,7 +94,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Austin",
         "guest_lastname": "Greenall",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "family",
         "dietary_restrictions": null,
@@ -106,7 +106,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Madison",
         "guest_lastname": "Laing",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "family",
         "dietary_restrictions": null,
@@ -118,7 +118,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Christopher",
         "guest_lastname": "Lassota",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "family",
         "dietary_restrictions": null,
@@ -130,7 +130,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Cooper",
         "guest_lastname": "Laing",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "family",
         "dietary_restrictions": null,
@@ -142,7 +142,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Rachel",
         "guest_lastname": "Bekker",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "family",
         "dietary_restrictions": null,
@@ -154,7 +154,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Raymond",
         "guest_lastname": "Lemire",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "family",
         "dietary_restrictions": null,
@@ -166,7 +166,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Marie",
         "guest_lastname": "Lemire",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "family",
         "dietary_restrictions": null,
@@ -178,7 +178,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Bernice",
         "guest_lastname": "Goulding",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "family",
         "dietary_restrictions": null,
@@ -190,7 +190,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Edward",
         "guest_lastname": "Laing",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "family",
         "dietary_restrictions": null,
@@ -202,7 +202,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Joyce",
         "guest_lastname": "Laing",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "family",
         "dietary_restrictions": null,
@@ -214,7 +214,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Gared",
         "guest_lastname": "Daniel",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "family",
         "dietary_restrictions": null,
@@ -226,7 +226,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Linda",
         "guest_lastname": "Laing",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "family",
         "dietary_restrictions": null,
@@ -238,7 +238,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Scott",
         "guest_lastname": "Newnham",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "family",
         "dietary_restrictions": null,
@@ -250,7 +250,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Lemire",
         "guest_lastname": "Family",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "family",
         "dietary_restrictions": null,
@@ -262,7 +262,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Melissa",
         "guest_lastname": "Fox",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "friends",
         "dietary_restrictions": null,
@@ -274,7 +274,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Jim",
         "guest_lastname": "Graph",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "friends",
         "dietary_restrictions": null,
@@ -286,7 +286,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Natalie",
         "guest_lastname": "Campbell",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "friends",
         "dietary_restrictions": null,
@@ -298,7 +298,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Jason",
         "guest_lastname": "Bercier",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "family",
         "dietary_restrictions": null,
@@ -310,7 +310,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Evonna",
         "guest_lastname": "Bercier",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "family",
         "dietary_restrictions": null,
@@ -322,7 +322,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Ellesia",
         "guest_lastname": "Bercier",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "family",
         "dietary_restrictions": null,
@@ -334,7 +334,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Matthew",
         "guest_lastname": "Premuzak",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "family",
         "dietary_restrictions": null,
@@ -346,7 +346,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Ava",
         "guest_lastname": "Bercier",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "family",
         "dietary_restrictions": null,
@@ -358,7 +358,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Manoual",
         "guest_lastname": "Yacop",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "family",
         "dietary_restrictions": null,
@@ -370,7 +370,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Nicholas",
         "guest_lastname": "Bercier",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "family",
         "dietary_restrictions": null,
@@ -382,7 +382,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Courtney",
         "guest_lastname": "Syntak",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "family",
         "dietary_restrictions": null,
@@ -394,7 +394,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Guiseppe",
         "guest_lastname": "Sartore",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "family",
         "dietary_restrictions": null,
@@ -406,7 +406,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Susan",
         "guest_lastname": "Sartore",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "family",
         "dietary_restrictions": null,
@@ -418,7 +418,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Rita",
         "guest_lastname": "Bercier",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "family",
         "dietary_restrictions": null,
@@ -430,7 +430,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Daniel",
         "guest_lastname": "McKee",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "friends",
         "dietary_restrictions": null,
@@ -442,7 +442,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Matthew",
         "guest_lastname": "Solda",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "friends",
         "dietary_restrictions": null,
@@ -454,7 +454,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "André",
         "guest_lastname": "Rodriques",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "friends",
         "dietary_restrictions": null,
@@ -466,7 +466,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Chase",
         "guest_lastname": "Lamoureux",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "friends",
         "dietary_restrictions": null,
@@ -478,7 +478,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Kyle",
         "guest_lastname": "Lutes",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "friends",
         "dietary_restrictions": null,
@@ -490,7 +490,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Madison",
         "guest_lastname": "James",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "friends",
         "dietary_restrictions": null,
@@ -502,7 +502,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Natasha",
         "guest_lastname": "Eden",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "friends",
         "dietary_restrictions": null,
@@ -514,7 +514,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Jay",
         "guest_lastname": "Peris",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "friends",
         "dietary_restrictions": null,
@@ -526,7 +526,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Ernest",
         "guest_lastname": "McCutcheon",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "friends",
         "dietary_restrictions": null,
@@ -538,7 +538,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "Melissa",
         "guest_lastname": "McCutcheon",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "friends",
         "dietary_restrictions": null,
@@ -550,7 +550,7 @@ export async function seed(knex) {
       {
         "guest_firstname": "James",
         "guest_lastname": "Hagel",
-        "rsvp": null,
+        "rsvp": "Pending",
         "contact_email": null,
         "group": "friends",
         "dietary_restrictions": null,
