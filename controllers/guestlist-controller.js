@@ -78,6 +78,72 @@ const RSVPResponse = async (req, res) => {
   }
 };
 
+const addGuest = async (req, res) => {
+  try {
+    console.log('Request body:', req.body);
+    const { 
+      guest_firstname, 
+      guest_lastname, 
+      contact_email = "", 
+      group = "", 
+      dietary_restrictions = "", 
+      address = "", 
+      city = "", 
+      province = "", 
+      postal_code = "",
+      rsvp = 'pending'
+    } = req.body;
+
+    if (!guest_firstname || !guest_lastname) {
+      console.log('Missing guest information');
+      return res.status(400).json({
+        message: "Guest first name and last name are required"
+      });
+    }
+
+    // Create guest object with validated data
+    const guestData = {
+      guest_firstname,
+      guest_lastname,
+      rsvp,
+      contact_email,
+      group,
+      dietary_restrictions,
+      address,
+      city,
+      province,
+      postal_code
+    };
+
+    console.log('Attempting to insert guest with data:', guestData);
+    
+    const [newGuestId] = await knex("guestlist")
+      .insert(guestData)
+      .returning('id');
+
+    console.log('New guest ID:', newGuestId);
+
+    // Fetch the newly created guest
+    const addedGuest = await knex("guestlist")
+      .where({ id: newGuestId })
+      .first();
+
+    return res.status(201).json({
+      message: "Guest added successfully",
+      data: addedGuest
+    });
+
+  } catch (error) {
+    console.error('Insert operation failed:', error);
+    console.error('Error stack:', error.stack);
+    return res.status(500).json({
+      message: "Error adding guest",
+      error: error.message,
+      stack: error.stack
+    });
+  }
+};
+
 const updateGuest = async (req, res) => {
   try {
     console.log('Request body:', req.body);
@@ -167,4 +233,4 @@ const deleteGuest = async (req, res) => {
   }
 };
 
-export { findAll, findRSVPstatus, RSVPResponse, updateGuest, deleteGuest };
+export { findAll, findRSVPstatus, RSVPResponse, updateGuest, deleteGuest, addGuest };

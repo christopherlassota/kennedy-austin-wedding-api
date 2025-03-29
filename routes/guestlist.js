@@ -4,6 +4,7 @@ import * as guestlistController from "../controllers/guestlist-controller.js";
 const guestlistRouter = express.Router();
 guestlistRouter.route("/")
   .get(guestlistController.findAll)
+  .post(guestlistController.addGuest)
   .delete(guestlistController.deleteGuest);
 
 guestlistRouter.route("/update")
