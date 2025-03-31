@@ -54,17 +54,24 @@ const findRSVPstatus = async (req, res) => {
 
 const RSVPResponse = async (req, res) => {
   try {
-    const { guest_firstname, guest_lastname, rsvp } = req.body;
-    if (!guest_firstname || !guest_firstname || !rsvp) {
+    const { guest_firstname, guest_lastname, rsvp, contact_email, dietary_restrictions = null } = req.body;
+    if (!guest_firstname || !guest_firstname || !rsvp || !contact_email) {
       res.status(400).send("Must include all attributes in request body");
     };
     const guest = await knex('guestlist').where({ guest_firstname, guest_lastname}).first();
     if (!guest) {
       return res.status(404).send("Guest not found")
     };
+    const updateData = {
+      rsvp,
+      contact_email,
+    }
+    if (dietary_restrictions !== null) {
+      updateData.dietary_restrictions = dietary_restrictions;
+    };
     const updatedRows = await knex("guestlist")
       .where({ guest_firstname, guest_lastname })
-      .update({ rsvp });
+      .update(updateData);
     if (updatedRows) {
       return res.status(200).send("RSVP updated successfully");
     } else {
