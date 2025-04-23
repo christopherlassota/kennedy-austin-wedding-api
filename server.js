@@ -4,7 +4,6 @@ import "dotenv/config";
 import guestlistRouter from "./routes/guestlist.js";
 
 const app =express();
-const PORT = process.env.PORT || 8080;
 const CORS_ORIGIN = process.env.CORS_ORIGIN || "*";
 
 // Middleware
@@ -13,7 +12,7 @@ app.use(express.json());
 
 app.use("/guestlist", guestlistRouter)
 
-app.listen(process.env.PORT, () => {
-    console.log(`The server is running at ${process.env.BACKEND_URL}${PORT}`);
+app.listen(process.env.PORT | PORT, () => {
+    console.log(`The server is running on ${PORT}`);
   });
   
