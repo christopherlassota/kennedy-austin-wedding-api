@@ -12,7 +12,7 @@ app.use(express.json());
 
 app.use("/guestlist", guestlistRouter)
 
-app.listen(process.env.PORT | PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
     console.log(`The server is running on ${PORT}`);
   });
   
