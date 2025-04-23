@@ -13,7 +13,7 @@ app.use(express.json());
 
 app.use("/guestlist", guestlistRouter)
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT, () => {
     console.log(`The server is running at ${process.env.BACKEND_URL}${PORT}`);
   });
   
