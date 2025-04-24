@@ -10,7 +10,7 @@ const CORS_ORIGIN = process.env.CORS_ORIGIN || "*";
 app.use(cors({ origin: CORS_ORIGIN }));
 app.use(express.json());
 
-app.use("/guestlist", guestlistRouter)
+app.use("/", guestlistRouter)
 
 app.listen(process.env.PORT, () => {
     console.log(`The server is running on ${process.env.PORT}`);
