@@ -170,14 +170,20 @@ const updateGuest = async (req, res) => {
       });
     }
 
+    // Clean up the updatedData by removing any undefined or null values
+    const cleanedUpdateData = Object.fromEntries(
+      Object.entries(updatedData).filter(([_, value]) => value !== null && value !== undefined)
+    );
+
     console.log('Executing update query for guest:', guest_firstname, guest_lastname);
+    console.log('Update data:', cleanedUpdateData);
     
     const updatedRows = await knex("guestlist")
       .where({ 
         guest_firstname,
         guest_lastname 
       })
-      .update(updatedData);
+      .update(cleanedUpdateData);
 
     console.log('Rows affected by update:', updatedRows);
 
